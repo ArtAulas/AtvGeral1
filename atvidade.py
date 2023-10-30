@@ -15,13 +15,9 @@ def divisores(a):
     return divisores
 
 def executa():
-    n1=input("Entre o número:\n")
-    try:
-        int(n1)
-    except:
-        print("Insira apenas números")
-        return
-    print("Multiplos:",multiplos(int(n1)))
-    print("Divisores",divisores(int(n1)))
+    n1=10
+    print("Número será:",n1)
+    print("Multiplos:",multiplos(n1))
+    print("Divisores",divisores(n1))
 
 executa()
