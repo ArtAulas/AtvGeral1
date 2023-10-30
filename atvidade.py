@@ -19,7 +19,7 @@ def executa():
     try:
         int(n1)
     except:
-        print("Insira um número")
+        print("Insira apenas números")
         return
     print("Multiplos:",multiplos(int(n1)))
     print("Divisores",divisores(int(n1)))
